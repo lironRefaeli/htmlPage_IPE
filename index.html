@@ -106,20 +106,20 @@ for example, in the use case:
     <h2 class="headline" align="center">contact me</h2>
        
 
-      <form action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-black w3-margin">
+      <form action="mailto:lironref@post.bgu.ac.il" method="post" enctype="text/plain" class="w3-container w3-card-4 w3-light-grey w3-text-black w3-margin">
         
          
         <div class="w3-row w3-section">
           <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
             <div class="w3-rest">
-              <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+              <input class="w3-input w3-border" name="first_name" type="text" placeholder="First Name">
             </div>
         </div>
         
         <div class="w3-row w3-section">
           <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
             <div class="w3-rest">
-              <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+              <input class="w3-input w3-border" name="last_name" type="text" placeholder="Last Name">
             </div>
         </div>
         
@@ -144,13 +144,19 @@ for example, in the use case:
             </div>
         </div>
         
-        <button class="w3-button w3-block w3-section w3-gray w3-ripple w3-padding">Send</button>
-        
+        <button class="w3-button w3-block w3-section w3-gray w3-ripple w3-padding" type="submit">Send</button>
+        <button class="w3-button w3-block w3-section w3-red w3-ripple w3-padding" type="reset">Reset</button>
+
         </form>
 <br>
 </section>
-
 </div>
+
+<div class="navbar">
+ Created by: Liron Refaeli | <a href="https://www.linkedin.com/in/liron-refaeli-09bb59100/">Visit my linkedin</a>
+ 
+  </div>
+
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
