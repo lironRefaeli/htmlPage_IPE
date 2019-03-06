@@ -1,11 +1,20 @@
+.main {
+	padding: 16px;
+	height: 1500px; /* Used in this example to enable scrolling */
+	margin-bottom: 30px;  
+}
+
 div.scrollmenu {
+	position: fixed;
+	width: 100%;
 	background-color: #333;
-	overflow: auto;
+	overflow: hidden;
 	white-space: nowrap;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   div.scrollmenu a {
+	
 	display: inline-block;
 	color: white;
 	text-align: center;
@@ -19,6 +28,9 @@ div.scrollmenu {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
+ 
+
+
   p {
 	display: block;
 	margin-top: 1em;
@@ -28,7 +40,7 @@ div.scrollmenu {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-  h1 { 
+  h1.headline { 
 	display: block;
 	font-size: 4em;
 	margin-top: 0.67em;
@@ -40,7 +52,7 @@ div.scrollmenu {
 
   }
 
-  h2 {
+  h2.headline {
 	display: block;
 	font-size: 1.5em;
 	margin-top: 0.83em;
@@ -49,5 +61,30 @@ div.scrollmenu {
 	margin-right: 0;
 	font-weight: bold;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: gray;
 
   }
+
+  h5.headline {
+	display: block;
+	font-size: 1em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  label{
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+  .w3-button 
+  {width:150px}
